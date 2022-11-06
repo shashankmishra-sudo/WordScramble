@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="./style.css">
+    
+<script src="./words.js"></script>
+</head>
+
+<body>
+
+    <div class="container font3">
+        <h1>Word Scramble</h1>
+
+        <h3 id="Show-word" class="text" ></h3>
+        
+        <p id="hint">Hint:-</p>
+        
+        <p id="time">Remaining Time:-</p>
+
+        <input id="guess" type="text" placeholder="Guess The Word" ></input>
+        <br>
+        
+
+        <button id="btn" onclick="initgame()">Refresh</button>
+        <button id="btn" onclick="chk()">Word Check</button>
+
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
